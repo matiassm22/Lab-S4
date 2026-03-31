@@ -1,0 +1,20 @@
+/* Estilos extra para pulir el diseño */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Empuja el footer hacia abajo si hay poco contenido */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Evita que la imagen se deforme */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
